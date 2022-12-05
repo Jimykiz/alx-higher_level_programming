@@ -10,5 +10,5 @@ def print_matrix_integer(matrix=[[]]):
             for elem in row:
                 print("{:d}".format(elem), end=" "
                         if elem != row[-1] else '\n')
-            else:
-                print()
+    else:
+        print()
