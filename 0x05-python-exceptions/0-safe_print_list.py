@@ -19,7 +19,7 @@ def safe_print_list(my_list=[], x=0):
                 print("{}".format(elem), end="")
                 if (num_of_elem == x):
                     break
-                print()
-                return num_of_elem
-            except BaseException:
-                pass
+            print()
+            return num_of_elem
+    except BaseException:
+        pass
